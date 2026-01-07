@@ -148,15 +148,23 @@ const Home = ({
     return homePage
   } else {
     return (
-      <div className="form-container">
-        <div className="form-box">
-          <Link to={`/signin`}>
-            <button className="form-btn">Sign In</button>
-          </Link>
-          <br />
-          <Link to={`/register`}>
-            <button className="form-btn">Register</button>
-          </Link>
+      <div className="guest-container">
+        <div className="guest-box">
+          <h2>Discover Local Stores Near You</h2>
+          <p>
+            Browse nearby businesses, explore products, and support local
+            sellers.
+          </p>
+
+          <div className="guest-actions">
+            <Link to={`/signin`}>
+              <button className="form-btn">Sign In</button>
+            </Link>
+
+            <Link to={`/register`}>
+              <button className="form-btn">Register</button>
+            </Link>
+          </div>
         </div>
       </div>
     )

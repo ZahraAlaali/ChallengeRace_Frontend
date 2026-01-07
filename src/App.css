@@ -1110,3 +1110,52 @@ img {
 .category-select[multiple] option:checked {
   background: #dbeafe linear-gradient(0deg, #dbeafe, #dbeafe);
 }
+
+.guest-container {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.guest-box {
+  text-align: center;
+  max-width: 420px;
+  padding: 2.5rem;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.guest-box h2 {
+  margin-bottom: 0.75rem;
+}
+
+.guest-box p {
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.guest-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.primary-btn {
+  padding: 0.6rem 1.4rem;
+  background: #1f2937;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  padding: 0.6rem 1.4rem;
+  background: transparent;
+  border: 1px solid #1f2937;
+  color: #1f2937;
+  border-radius: 6px;
+  cursor: pointer;
+}
